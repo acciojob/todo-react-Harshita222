@@ -13,6 +13,7 @@ const Todo = () => {
       if(newTodo.trim() !== ''){
         setTodos([...todos , newTodo]);
         setNewTodos('');
+        // bjj
       }
     }
   
