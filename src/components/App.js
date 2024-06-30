@@ -1,15 +1,15 @@
-
 import React from "react";
-import './../styles/App.css';
-import Todo from "./Todo";
-
+import "./../styles/App.css";
+// import Todo from "./TodoList";
+import TodoList from "./TodoList"
 const App = () => {
   return (
     <div>
-        <Todo/>
-        {/* Do not remove the main div */}
-    </div>
-  )
-}
+      <TodoList />
 
-export default App
+      {/* <Todo/> */}
+    </div>
+  );
+};
+
+export default App;
